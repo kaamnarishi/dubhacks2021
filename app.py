@@ -2,7 +2,7 @@ from flask import Flask, send_from_directory
 from flask_restful import Api
 from flask_cors import CORS #comment this on deployment
 
-from api.SalaryAPI import HelloApiHandler
+from api.SalaryAPI import SalaryApiHandler
 
 app = Flask(__name__, static_url_path='', static_folder='frontend/build')
 CORS(app) #comment this on deployment
@@ -13,7 +13,7 @@ api = Api(app)
 def serve(path):
     return send_from_directory(app.static_folder,'index.html')
 
-api.add_resource(HelloApiHandler, '/flask/salary')
+api.add_resource(SalaryApiHandler, '/flask/salary/<string:company>/<string:state>')
 
 
 if __name__ == '__main__':

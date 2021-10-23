@@ -11,10 +11,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support import expected_conditions as expect
 
-class HelloApiHandler(Resource):
-  def get(self):
-    COMPANY = "Stripe"
-    STATE = "CA"
+class SalaryApiHandler(Resource):
+  def get(self, company, state):
+    COMPANY = company
+    STATE = state
     EXPERIENCE = "New Grad"
     TIME_FRAME = "Past 2 years"
 
