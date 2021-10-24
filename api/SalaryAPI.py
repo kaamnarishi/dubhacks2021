@@ -54,7 +54,12 @@ class SalaryApiHandler(Resource):
     trs = driver.find_elements(By.XPATH, "//table[@id='compTable']/tbody/tr")
     for tr in trs:
         t = tr.text.split('\n')
-        location = t[1]
+        try:
+            location = t[1]
+        except:
+            return {
+                "resultStatus": "No Jobs Found"
+            }
         experience = t[4]
         salary = t[5]
         base_salary = t[6].split('|')[0]

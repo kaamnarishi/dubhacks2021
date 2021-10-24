@@ -38,7 +38,11 @@ class CHomeDashboard2D19 extends React.Component {
         document.getElementById("calculateButton").innerText = "Loading Calculations";
         axios.get(`http://localhost:5000/flask/salary/${company}/${state}/${role}`).then(response => {
             document.getElementById("calculateButton").innerHTML = "Start Calculations";
-            this.handleSetCompanyData(response.data);
+            if (response.data.resultStatus !== "SUCCESS") {
+                alert("No Jobs Found");
+            } else {
+                this.handleSetCompanyData(response.data);
+            }
         }).catch(error => {
             document.getElementById("calculateButton").innerHTML = "Start Calculations";
 
