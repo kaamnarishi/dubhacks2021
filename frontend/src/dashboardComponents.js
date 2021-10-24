@@ -60,17 +60,17 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":55}} className="outerDiv">
+        <div style={{"zIndex":49}} className="outerDiv">
           <div
             id="15:108"
-            style={{"marginLeft":805,"width":586,"minWidth":586,"height":null,"marginTop":-893,"marginBottom":-190,"minHeight":1083,"backgroundColor":"rgba(255, 255, 255, 1)","boxShadow":"0px 12px 30px rgba(0, 0, 0, 0.11999999731779099)"}}
+            style={{"marginLeft":805,"width":586,"minWidth":586,"height":null,"marginTop":-893,"marginBottom":-13,"minHeight":906,"backgroundColor":"rgba(255, 255, 255, 1)","boxShadow":"0px 12px 30px rgba(0, 0, 0, 0.11999999731779099)"}}
             className="innerDiv"
           >
             <div>
             </div>
           </div>
         </div>
-        <div style={{"zIndex":154}} className="outerDiv">
+        <div style={{"zIndex":134}} className="outerDiv">
           <div
             id="15:216"
             style={{"marginLeft":340,"width":433,"minWidth":433,"height":null,"marginTop":-893,"marginBottom":549,"minHeight":344}}
@@ -101,7 +101,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":156}} className="outerDiv">
+        <div style={{"zIndex":135}} className="outerDiv">
           <div
             id="15:218"
             style={{"marginLeft":675,"width":55,"minWidth":55,"height":null,"marginTop":-860,"marginBottom":805,"minHeight":55,"backgroundImage":"url(https://s3-us-west-2.amazonaws.com/figma-alpha/img/fc8c/8310/796fc8eeb0eec56e7bb60a0ae649d969)","backgroundSize":"cover"}}
@@ -111,7 +111,19 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":56}} className="outerDiv">
+        <div style={{"zIndex":136}} className="outerDiv">
+          <div
+            id="15:219"
+            style={{"marginLeft":381,"width":180,"minWidth":180,"height":null,"marginTop":-860,"marginBottom":829,"minHeight":31,"color":"rgba(255, 255, 255, 1)","fontSize":36,"fontWeight":700,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            className="innerDiv"
+          >
+            <div>
+              <span style={{}} key="7">Company</span>
+              <br key="br7" />
+            </div>
+          </div>
+        </div>
+        <div style={{"zIndex":50}} className="outerDiv">
           <div
             id="15:110"
             style={{"marginLeft":845,"width":235,"minWidth":235,"height":null,"marginTop":-858,"marginBottom":829,"minHeight":29,"color":"rgba(0, 0, 0, 1)","fontSize":24,"fontWeight":700,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -119,17 +131,6 @@ class CPlanningCalculator15D51 extends PureComponent {
           >
             <div>
               <span style={{}} key="end">Spending + Saving</span>
-            </div>
-          </div>
-        </div>
-        <div style={{"zIndex":155}} className="outerDiv">
-          <div
-            id="15:217"
-            style={{"marginLeft":380,"width":174,"minWidth":174,"height":null,"marginTop":-858,"marginBottom":836,"minHeight":22,"color":"rgba(255, 255, 255, 1)","fontSize":18,"fontWeight":700,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
-            className="innerDiv"
-          >
-            <div>
-              <span style={{}} key="end">Your Current Offer</span>
             </div>
           </div>
         </div>
@@ -154,7 +155,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":159}} className="outerDiv">
+        <div style={{"zIndex":139}} className="outerDiv">
           <div
             id="15:221"
             style={{"marginLeft":380,"width":286,"minWidth":286,"height":null,"marginTop":-816,"marginBottom":738,"minHeight":78,"color":"rgba(255, 255, 255, 1)","fontSize":64,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -165,7 +166,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":69}} className="outerDiv">
+        <div style={{"zIndex":63}} className="outerDiv">
           <div
             id="15:134"
             style={{"marginLeft":1140,"width":77,"minWidth":77,"height":null,"marginTop":-789,"marginBottom":767,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -176,7 +177,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":70}} className="outerDiv">
+        <div style={{"zIndex":64}} className="outerDiv">
           <div
             id="15:135"
             style={{"marginLeft":1234,"width":67,"minWidth":67,"height":null,"marginTop":-789,"marginBottom":767,"minHeight":22,"color":"rgba(193, 193, 193, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -208,7 +209,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":71}} className="outerDiv">
+        <div style={{"zIndex":65}} className="outerDiv">
           <div
             id="15:136"
             style={{"marginLeft":1160,"width":108,"minWidth":108,"height":null,"marginTop":-741,"marginBottom":724,"minHeight":17,"color":"rgba(99, 93, 223, 1)","fontSize":14,"fontWeight":500,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -219,7 +220,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":72}} className="outerDiv">
+        <div style={{"zIndex":66}} className="outerDiv">
           <div
             id="15:137"
             style={{"marginLeft":1140,"width":11,"minWidth":11,"height":null,"marginTop":-738,"marginBottom":727,"minHeight":11}}
@@ -231,7 +232,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":68}} className="outerDiv">
+        <div style={{"zIndex":62}} className="outerDiv">
           <div
             id="15:133"
             style={{"marginLeft":1140,"width":78,"minWidth":78,"height":null,"marginTop":-718,"marginBottom":696,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -242,9 +243,9 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":157}} className="outerDiv">
+        <div style={{"zIndex":137}} className="outerDiv">
           <div
-            id="15:219"
+            id="20:50"
             style={{"marginLeft":380,"width":257,"minWidth":257,"height":null,"marginTop":-718,"marginBottom":689,"minHeight":29,"color":"rgba(255, 255, 255, 1)","fontSize":24,"fontWeight":700,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
@@ -274,7 +275,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":75}} className="outerDiv">
+        <div style={{"zIndex":69}} className="outerDiv">
           <div
             id="15:140"
             style={{"marginLeft":1160,"width":94,"minWidth":94,"height":null,"marginTop":-671,"marginBottom":654,"minHeight":17,"color":"rgba(99, 93, 223, 1)","fontSize":14,"fontWeight":500,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -285,7 +286,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":76}} className="outerDiv">
+        <div style={{"zIndex":70}} className="outerDiv">
           <div
             id="15:141"
             style={{"marginLeft":1140,"width":11,"minWidth":11,"height":null,"marginTop":-668,"marginBottom":657,"minHeight":11}}
@@ -297,7 +298,17 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":74}} className="outerDiv">
+        <div style={{"zIndex":145}} className="outerDiv">
+          <div
+            id="20:51"
+            style={{"marginLeft":454,"width":100,"minWidth":100,"height":null,"marginTop":-651,"marginBottom":551,"minHeight":100}}
+            className="innerDiv"
+          >
+            <div>
+            </div>
+          </div>
+        </div>
+        <div style={{"zIndex":68}} className="outerDiv">
           <div
             id="15:139"
             style={{"marginLeft":1140,"width":78,"minWidth":78,"height":null,"marginTop":-648,"marginBottom":626,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -308,10 +319,10 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":158}} className="outerDiv">
+        <div style={{"zIndex":138}} className="outerDiv">
           <div
             id="15:220"
-            style={{"marginLeft":380,"width":176,"minWidth":176,"height":null,"marginTop":-624,"marginBottom":602,"minHeight":22,"color":"rgba(255, 255, 255, 1)","fontSize":18,"fontWeight":700,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            style={{"marginLeft":380,"width":176,"minWidth":176,"height":null,"marginTop":-631,"marginBottom":609,"minHeight":22,"color":"rgba(255, 255, 255, 1)","fontSize":18,"fontWeight":700,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
@@ -319,7 +330,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":79}} className="outerDiv">
+        <div style={{"zIndex":73}} className="outerDiv">
           <div
             id="15:144"
             style={{"marginLeft":1160,"width":65,"minWidth":65,"height":null,"marginTop":-601,"marginBottom":584,"minHeight":17,"color":"rgba(99, 93, 223, 1)","fontSize":14,"fontWeight":500,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -330,7 +341,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":80}} className="outerDiv">
+        <div style={{"zIndex":74}} className="outerDiv">
           <div
             id="15:145"
             style={{"marginLeft":1140,"width":11,"minWidth":11,"height":null,"marginTop":-598,"marginBottom":587,"minHeight":11}}
@@ -342,7 +353,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":78}} className="outerDiv">
+        <div style={{"zIndex":72}} className="outerDiv">
           <div
             id="15:143"
             style={{"marginLeft":1140,"width":78,"minWidth":78,"height":null,"marginTop":-578,"marginBottom":556,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -363,7 +374,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":84}} className="outerDiv">
+        <div style={{"zIndex":78}} className="outerDiv">
           <div
             id="15:148"
             style={{"marginLeft":845,"width":77,"minWidth":77,"height":null,"marginTop":-492,"marginBottom":470,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -374,7 +385,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":150}} className="outerDiv">
+        <div style={{"zIndex":116}} className="outerDiv">
           <div
             id="15:214"
             style={{"marginLeft":939,"width":67,"minWidth":67,"height":null,"marginTop":-492,"marginBottom":470,"minHeight":22,"color":"rgba(193, 193, 193, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -407,7 +418,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":86}} className="outerDiv">
+        <div style={{"zIndex":80}} className="outerDiv">
           <div
             id="15:154"
             style={{"marginLeft":845,"width":50,"minWidth":50,"height":null,"marginTop":-433,"marginBottom":383,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
@@ -417,7 +428,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":85}} className="outerDiv">
+        <div style={{"zIndex":79}} className="outerDiv">
           <div
             id="15:151"
             style={{"marginLeft":918,"width":88,"minWidth":88,"height":null,"marginTop":-419,"marginBottom":397,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -428,7 +439,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":140}} className="outerDiv">
+        <div style={{"zIndex":110}} className="outerDiv">
           <div
             id="15:205"
             style={{"marginLeft":1275,"width":45,"minWidth":45,"height":null,"marginTop":-419,"marginBottom":397,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -472,7 +483,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":92}} className="outerDiv">
+        <div style={{"zIndex":86}} className="outerDiv">
           <div
             id="15:160"
             style={{"marginLeft":845,"width":50,"minWidth":50,"height":null,"marginTop":-368,"marginBottom":318,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
@@ -482,7 +493,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":142}} className="outerDiv">
+        <div style={{"zIndex":112}} className="outerDiv">
           <div
             id="15:207"
             style={{"marginLeft":1274,"width":46,"minWidth":46,"height":null,"marginTop":-356,"marginBottom":334,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -515,7 +526,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":91}} className="outerDiv">
+        <div style={{"zIndex":85}} className="outerDiv">
           <div
             id="15:157"
             style={{"marginLeft":918,"width":150,"minWidth":150,"height":null,"marginTop":-354,"marginBottom":332,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -537,10 +548,10 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":99}} className="outerDiv">
+        <div style={{"zIndex":92}} className="outerDiv">
           <div
-            id="15:166"
-            style={{"marginLeft":845,"width":50,"minWidth":50,"height":null,"marginTop":-303,"marginBottom":253,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
+            id="15:172"
+            style={{"marginLeft":845,"width":50,"minWidth":50,"height":null,"marginTop":-307,"marginBottom":257,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
             className="innerDiv"
           >
             <div>
@@ -569,25 +580,25 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":97}} className="outerDiv">
+        <div style={{"zIndex":91}} className="outerDiv">
           <div
-            id="15:164"
-            style={{"marginLeft":918,"width":92,"minWidth":92,"height":null,"marginTop":-289,"marginBottom":267,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            id="15:169"
+            style={{"marginLeft":918,"width":56,"minWidth":56,"height":null,"marginTop":-293,"marginBottom":271,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Insurance</span>
+              <span style={{}} key="end">Travel</span>
             </div>
           </div>
         </div>
-        <div style={{"zIndex":145}} className="outerDiv">
+        <div style={{"zIndex":111}} className="outerDiv">
           <div
-            id="15:210"
-            style={{"marginLeft":1276,"width":45,"minWidth":45,"height":null,"marginTop":-289,"marginBottom":267,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            id="15:206"
+            style={{"marginLeft":1277,"width":48,"minWidth":48,"height":null,"marginTop":-293,"marginBottom":271,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">$750</span>
+              <span style={{}} key="end">$800</span>
             </div>
           </div>
         </div>
@@ -602,10 +613,10 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":104}} className="outerDiv">
+        <div style={{"zIndex":98}} className="outerDiv">
           <div
-            id="15:172"
-            style={{"marginLeft":845,"width":50,"minWidth":50,"height":null,"marginTop":-240,"marginBottom":190,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
+            id="15:178"
+            style={{"marginLeft":845,"width":50,"minWidth":50,"height":null,"marginTop":-242,"marginBottom":192,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
             className="innerDiv"
           >
             <div>
@@ -634,25 +645,25 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":103}} className="outerDiv">
+        <div style={{"zIndex":97}} className="outerDiv">
           <div
-            id="15:169"
-            style={{"marginLeft":918,"width":56,"minWidth":56,"height":null,"marginTop":-226,"marginBottom":204,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            id="15:175"
+            style={{"marginLeft":918,"width":192,"minWidth":192,"height":null,"marginTop":-228,"marginBottom":206,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Travel</span>
+              <span style={{}} key="end">Restaurants / Dining</span>
             </div>
           </div>
         </div>
-        <div style={{"zIndex":141}} className="outerDiv">
+        <div style={{"zIndex":113}} className="outerDiv">
           <div
-            id="15:206"
-            style={{"marginLeft":1273,"width":48,"minWidth":48,"height":null,"marginTop":-226,"marginBottom":204,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            id="15:208"
+            style={{"marginLeft":1278,"width":46,"minWidth":46,"height":null,"marginTop":-228,"marginBottom":206,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">$800</span>
+              <span style={{}} key="end">$300</span>
             </div>
           </div>
         </div>
@@ -689,39 +700,39 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":110}} className="outerDiv">
+        <div style={{"zIndex":104}} className="outerDiv">
           <div
-            id="15:178"
-            style={{"marginLeft":845,"width":50,"minWidth":50,"height":null,"marginTop":-175,"marginBottom":125,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
+            id="15:184"
+            style={{"marginLeft":845,"width":50,"minWidth":50,"height":null,"marginTop":-177,"marginBottom":127,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
             className="innerDiv"
           >
             <div>
             </div>
           </div>
         </div>
-        <div style={{"zIndex":109}} className="outerDiv">
+        <div style={{"zIndex":103}} className="outerDiv">
           <div
-            id="15:175"
-            style={{"marginLeft":918,"width":192,"minWidth":192,"height":null,"marginTop":-161,"marginBottom":139,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            id="15:181"
+            style={{"marginLeft":918,"width":63,"minWidth":63,"height":null,"marginTop":-163,"marginBottom":141,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Restaurants / Dining</span>
+              <span style={{}} key="end">Health</span>
             </div>
           </div>
         </div>
-        <div style={{"zIndex":143}} className="outerDiv">
+        <div style={{"zIndex":114}} className="outerDiv">
           <div
-            id="15:208"
-            style={{"marginLeft":1275,"width":46,"minWidth":46,"height":null,"marginTop":-161,"marginBottom":139,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            id="15:209"
+            style={{"marginLeft":1280,"width":41,"minWidth":41,"height":null,"marginTop":-163,"marginBottom":141,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">$300</span>
+              <span style={{}} key="end">$150</span>
             </div>
           </div>
         </div>
-        <div style={{"zIndex":51}} className="outerDiv">
+        <div style={{"zIndex":45}} className="outerDiv">
           <div
             id="15:106"
             style={{"marginLeft":368,"width":378.01190185546875,"minWidth":378.01190185546875,"marginTop":-138,"marginBottom":138,"height":null}}
@@ -733,9 +744,9 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":45}} className="outerDiv">
+        <div style={{"zIndex":146}} className="outerDiv">
           <div
-            id="15:101"
+            id="21:53"
             style={{"marginLeft":368,"width":378,"minWidth":378,"height":null,"marginTop":-122,"marginBottom":43,"minHeight":79,"backgroundColor":"rgba(143, 138, 248, 1)"}}
             className="innerDiv"
           >
@@ -743,19 +754,19 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":116}} className="outerDiv">
+        <div style={{"zIndex":118}} className="outerDiv">
           <div
-            id="15:184"
-            style={{"marginLeft":846,"width":50,"minWidth":50,"height":null,"marginTop":-110,"marginBottom":60,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
+            id="15:196"
+            style={{"marginLeft":845,"width":50,"minWidth":50,"height":null,"marginTop":-117,"marginBottom":67,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
             className="innerDiv"
           >
             <div>
             </div>
           </div>
         </div>
-        <div style={{"zIndex":47}} className="outerDiv">
+        <div style={{"zIndex":148}} className="outerDiv">
           <div
-            id="15:104"
+            id="21:56"
             style={{"marginLeft":403,"width":128,"minWidth":128,"height":null,"marginTop":-105,"marginBottom":88,"minHeight":17,"color":"rgba(255, 255, 255, 1)","fontSize":14,"fontWeight":500,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
@@ -764,31 +775,31 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":115}} className="outerDiv">
+        <div style={{"zIndex":117}} className="outerDiv">
           <div
-            id="15:181"
-            style={{"marginLeft":919,"width":63,"minWidth":63,"height":null,"marginTop":-96,"marginBottom":74,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            id="15:193"
+            style={{"marginLeft":918,"width":244,"minWidth":244,"height":null,"marginTop":-103,"marginBottom":81,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Health</span>
+              <span style={{}} key="end">Shopping / Entertainment</span>
             </div>
           </div>
         </div>
-        <div style={{"zIndex":144}} className="outerDiv">
+        <div style={{"zIndex":123}} className="outerDiv">
           <div
-            id="15:209"
-            style={{"marginLeft":1280,"width":41,"minWidth":41,"height":null,"marginTop":-96,"marginBottom":74,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            id="15:212"
+            style={{"marginLeft":1274,"width":46,"minWidth":46,"height":null,"marginTop":-99,"marginBottom":77,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">$150</span>
+              <span style={{}} key="end">$300</span>
             </div>
           </div>
         </div>
-        <div style={{"zIndex":46}} className="outerDiv">
+        <div style={{"zIndex":147}} className="outerDiv">
           <div
-            id="15:103"
+            id="21:55"
             style={{"marginLeft":403,"width":79,"minWidth":79,"height":null,"marginTop":-82,"marginBottom":60,"minHeight":22,"color":"rgba(255, 255, 255, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
@@ -797,7 +808,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":162}} className="outerDiv">
+        <div style={{"zIndex":142}} className="outerDiv">
           <div
             id="15:224"
             style={{"marginLeft":115,"width":73,"minWidth":73,"height":null,"marginTop":-67,"marginBottom":45,"minHeight":22,"color":"rgba(255, 255, 255, 1)","fontSize":18,"fontWeight":700,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
@@ -808,84 +819,20 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":122}} className="outerDiv">
-          <div
-            id="15:190"
-            style={{"marginLeft":846,"width":50,"minWidth":50,"height":null,"marginTop":-47,"marginBottom":-3,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
-            className="innerDiv"
-          >
-            <div>
-            </div>
-          </div>
-        </div>
-        <div style={{"zIndex":121}} className="outerDiv">
-          <div
-            id="15:187"
-            style={{"marginLeft":919,"width":95,"minWidth":95,"height":null,"marginTop":-33,"marginBottom":11,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
-            className="innerDiv"
-          >
-            <div>
-              <span style={{}} key="end">Education</span>
-            </div>
-          </div>
-        </div>
-        <div style={{"zIndex":146}} className="outerDiv">
-          <div
-            id="15:211"
-            style={{"marginLeft":1275,"width":46,"minWidth":46,"height":null,"marginTop":-33,"marginBottom":11,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
-            className="innerDiv"
-          >
-            <div>
-              <span style={{}} key="end">$200</span>
-            </div>
-          </div>
-        </div>
-        <div style={{"zIndex":128}} className="outerDiv">
-          <div
-            id="15:196"
-            style={{"marginLeft":846,"width":50,"minWidth":50,"height":null,"marginTop":16,"marginBottom":-66,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
-            className="innerDiv"
-          >
-            <div>
-            </div>
-          </div>
-        </div>
-        <div style={{"zIndex":127}} className="outerDiv">
-          <div
-            id="15:193"
-            style={{"marginLeft":919,"width":244,"minWidth":244,"height":null,"marginTop":30,"marginBottom":-52,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
-            className="innerDiv"
-          >
-            <div>
-              <span style={{}} key="end">Shopping / Entertainment</span>
-            </div>
-          </div>
-        </div>
-        <div style={{"zIndex":147}} className="outerDiv">
-          <div
-            id="15:212"
-            style={{"marginLeft":1275,"width":46,"minWidth":46,"height":null,"marginTop":30,"marginBottom":-52,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
-            className="innerDiv"
-          >
-            <div>
-              <span style={{}} key="end">$300</span>
-            </div>
-          </div>
-        </div>
-        <div style={{"zIndex":134}} className="outerDiv">
+        <div style={{"zIndex":125}} className="outerDiv">
           <div
             id="15:202"
-            style={{"marginLeft":846,"width":50,"minWidth":50,"height":null,"marginTop":81,"marginBottom":-131,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
+            style={{"marginLeft":844,"width":50,"minWidth":50,"height":null,"marginTop":-56,"marginBottom":6,"minHeight":50,"border":"2px solid rgba(143, 138, 248, 1)"}}
             className="innerDiv"
           >
             <div>
             </div>
           </div>
         </div>
-        <div style={{"zIndex":133}} className="outerDiv">
+        <div style={{"zIndex":124}} className="outerDiv">
           <div
             id="15:199"
-            style={{"marginLeft":919,"width":72,"minWidth":72,"height":null,"marginTop":95,"marginBottom":-117,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            style={{"marginLeft":917,"width":72,"minWidth":72,"height":null,"marginTop":-42,"marginBottom":20,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"LEFT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
@@ -893,10 +840,10 @@ class CPlanningCalculator15D51 extends PureComponent {
             </div>
           </div>
         </div>
-        <div style={{"zIndex":148}} className="outerDiv">
+        <div style={{"zIndex":130}} className="outerDiv">
           <div
             id="15:213"
-            style={{"marginLeft":1274,"width":47,"minWidth":47,"height":null,"marginTop":97,"marginBottom":-119,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
+            style={{"marginLeft":1273,"width":47,"minWidth":47,"height":null,"marginTop":-41,"marginBottom":19,"minHeight":22,"color":"rgba(0, 0, 0, 1)","fontSize":18,"fontWeight":600,"fontFamily":"Montserrat","textAlign":"RIGHT","fontStyle":"normal","lineHeight":"125%","letterSpacing":"0px"}}
             className="innerDiv"
           >
             <div>
@@ -1016,21 +963,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":48}} className="outerDiv centerer">
-          <div
-            id="15:105"
-            style={{"width":"1.1805555555555556%","marginLeft":"37.361111111111114%","height":"1.66015625%","top":"89.74609375%"}}
-            className="innerDiv"
-          >
-            <div className="vector" dangerouslySetInnerHTML={{__html: `<svg preserveAspectRatio="none" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.49999 15.5834C12.412 15.5834 15.5833 12.412 15.5833 8.50002C15.5833 4.588 12.412 1.41669 8.49999 1.41669C4.58797 1.41669 1.41666 4.588 1.41666 8.50002C1.41666 12.412 4.58797 15.5834 8.49999 15.5834Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8.5 11.3333V8.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8.5 5.66669H8.50708" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-`}} />
-          </div>
-        </div>
-        <div style={{"zIndex":57}} className="outerDiv centerer">
+        <div style={{"zIndex":51}} className="outerDiv centerer">
           <div
             id="15:114"
             style={{"width":"6.069441901312934%","marginLeft":"69.7638914320204%","height":"8.754938840866089%","top":"26.35248340666294%"}}
@@ -1042,7 +975,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":58}} className="outerDiv centerer">
+        <div style={{"zIndex":52}} className="outerDiv centerer">
           <div
             id="15:116"
             style={{"width":"4.88037109375%","marginLeft":"68.27527364095052%","height":"7.859455049037933%","top":"23.52711781859398%"}}
@@ -1054,7 +987,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":59}} className="outerDiv centerer">
+        <div style={{"zIndex":53}} className="outerDiv centerer">
           <div
             id="15:118"
             style={{"width":"1.407271491156684%","marginLeft":"68.24574364556207%","height":"6.6866569221019745%","top":"23.499145358800888%"}}
@@ -1066,7 +999,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":60}} className="outerDiv centerer">
+        <div style={{"zIndex":54}} className="outerDiv centerer">
           <div
             id="15:120"
             style={{"width":"9.88517337375217%","marginLeft":"59.69835917154948%","height":"9.638585150241852%","top":"23.046875%"}}
@@ -1078,7 +1011,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":61}} className="outerDiv centerer">
+        <div style={{"zIndex":55}} className="outerDiv centerer">
           <div
             id="15:122"
             style={{"width":"5.15580071343316%","marginLeft":"58.888749016655815%","height":"4.576215893030167%","top":"29.408694803714752%"}}
@@ -1090,7 +1023,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":62}} className="outerDiv centerer">
+        <div style={{"zIndex":56}} className="outerDiv centerer">
           <div
             id="15:124"
             style={{"width":"4.932047526041667%","marginLeft":"58.768412272135414%","height":"1.9094407558441162%","top":"32.46615827083588%"}}
@@ -1102,7 +1035,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":63}} className="outerDiv centerer">
+        <div style={{"zIndex":57}} className="outerDiv centerer">
           <div
             id="15:126"
             style={{"width":"5.839339362250434%","marginLeft":"58.68055555555556%","height":"9.686680138111115%","top":"33.38556885719299%"}}
@@ -1114,7 +1047,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":64}} className="outerDiv centerer">
+        <div style={{"zIndex":58}} className="outerDiv centerer">
           <div
             id="15:128"
             style={{"width":"6.206834581163195%","marginLeft":"60.81682840983073%","height":"8.650779724121094%","top":"38.49245607852936%"}}
@@ -1126,7 +1059,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":65}} className="outerDiv centerer">
+        <div style={{"zIndex":59}} className="outerDiv centerer">
           <div
             id="15:130"
             style={{"width":"9.125289916992188%","marginLeft":"66.70804341634114%","height":"12.060546875%","top":"35.10742038488388%"}}
@@ -1138,7 +1071,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":83}} className="outerDiv centerer">
+        <div style={{"zIndex":77}} className="outerDiv centerer">
           <div
             id="15:146"
             style={{"width":"1.6666666666666667%","marginLeft":"92.15277777777777%","height":"2.34375%","top":"16.2109375%"}}
@@ -1151,7 +1084,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":88}} className="outerDiv centerer">
+        <div style={{"zIndex":82}} className="outerDiv centerer">
           <div
             id="15:155"
             style={{"width":"1.5277777777777777%","marginLeft":"59.65277777777778%","height":"2.1484375%","top":"59.08203125%"}}
@@ -1165,7 +1098,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":94}} className="outerDiv centerer">
+        <div style={{"zIndex":88}} className="outerDiv centerer">
           <div
             id="15:161"
             style={{"width":"1.5277777777777777%","marginLeft":"59.65277777777778%","height":"2.1484375%","top":"65.625%"}}
@@ -1177,28 +1110,10 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":100}} className="outerDiv centerer">
-          <div
-            id="15:167"
-            style={{"width":"1.5277777777777777%","marginLeft":"59.65277777777778%","height":"2.1484375%","top":"71.77734375%"}}
-            className="innerDiv"
-          >
-            <div className="vector" dangerouslySetInnerHTML={{__html: `<svg preserveAspectRatio="none" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11 20.1667C16.0626 20.1667 20.1666 16.0626 20.1666 11C20.1666 5.9374 16.0626 1.83334 11 1.83334C5.93737 1.83334 1.83331 5.9374 1.83331 11C1.83331 16.0626 5.93737 20.1667 11 20.1667Z" stroke="#8F8AF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11 14.6667C13.025 14.6667 14.6666 13.0251 14.6666 11C14.6666 8.97497 13.025 7.33334 11 7.33334C8.97494 7.33334 7.33331 8.97497 7.33331 11C7.33331 13.0251 8.97494 14.6667 11 14.6667Z" stroke="#8F8AF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M4.51917 4.51917L8.40583 8.40583" stroke="#8F8AF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13.5942 13.5942L17.4808 17.4808" stroke="#8F8AF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13.5942 8.40583L17.4808 4.51917" stroke="#8F8AF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13.5942 8.40585L16.83 5.17001" stroke="#8F8AF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M4.51917 17.4808L8.40583 13.5942" stroke="#8F8AF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-`}} />
-          </div>
-        </div>
-        <div style={{"zIndex":106}} className="outerDiv centerer">
+        <div style={{"zIndex":94}} className="outerDiv centerer">
           <div
             id="15:173"
-            style={{"width":"1.6666666666666667%","marginLeft":"59.583333333333336%","height":"2.34375%","top":"77.83203125%"}}
+            style={{"width":"1.6666666666666667%","marginLeft":"59.583333333333336%","height":"2.34375%","top":"71.2890625%"}}
             className="innerDiv"
           >
             <div className="vector" dangerouslySetInnerHTML={{__html: `<svg preserveAspectRatio="none" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1208,10 +1123,10 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":112}} className="outerDiv centerer">
+        <div style={{"zIndex":100}} className="outerDiv centerer">
           <div
             id="15:179"
-            style={{"width":"1.5277777777777777%","marginLeft":"59.65277777777778%","height":"2.1484375%","top":"84.27734375%"}}
+            style={{"width":"1.5277777777777777%","marginLeft":"59.65277777777778%","height":"2.1484375%","top":"77.734375%"}}
             className="innerDiv"
           >
             <div className="vector" dangerouslySetInnerHTML={{__html: `<svg preserveAspectRatio="none" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1231,10 +1146,10 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":118}} className="outerDiv centerer">
+        <div style={{"zIndex":106}} className="outerDiv centerer">
           <div
             id="15:185"
-            style={{"width":"1.5277777777777777%","marginLeft":"59.72222222222222%","height":"2.1484375%","top":"90.625%"}}
+            style={{"width":"1.5277777777777777%","marginLeft":"59.65277777777778%","height":"2.1484375%","top":"84.08203125%"}}
             className="innerDiv"
           >
             <div className="vector" dangerouslySetInnerHTML={{__html: `<svg preserveAspectRatio="none" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1243,23 +1158,10 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":124}} className="outerDiv centerer">
-          <div
-            id="15:191"
-            style={{"width":"1.5277777777777777%","marginLeft":"59.72222222222222%","height":"2.1484375%","top":"96.77734375%"}}
-            className="innerDiv"
-          >
-            <div className="vector" dangerouslySetInnerHTML={{__html: `<svg preserveAspectRatio="none" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.83331 2.75H7.33331C8.30577 2.75 9.2384 3.13631 9.92604 3.82394C10.6137 4.51158 11 5.44421 11 6.41667V19.25C11 18.5207 10.7102 17.8212 10.1945 17.3055C9.6788 16.7897 8.97933 16.5 8.24998 16.5H1.83331V2.75Z" stroke="#8F8AF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20.1667 2.75H14.6667C13.6942 2.75 12.7616 3.13631 12.0739 3.82394C11.3863 4.51158 11 5.44421 11 6.41667V19.25C11 18.5207 11.2897 17.8212 11.8055 17.3055C12.3212 16.7897 13.0207 16.5 13.75 16.5H20.1667V2.75Z" stroke="#8F8AF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-`}} />
-          </div>
-        </div>
-        <div style={{"zIndex":130}} className="outerDiv centerer">
+        <div style={{"zIndex":120}} className="outerDiv centerer">
           <div
             id="15:197"
-            style={{"width":"1.5277777777777777%","marginLeft":"59.72222222222222%","height":"2.1484375%","top":"102.9296875%"}}
+            style={{"width":"1.5277777777777777%","marginLeft":"59.65277777777778%","height":"2.1484375%","top":"89.94140625%"}}
             className="innerDiv"
           >
             <div className="vector" dangerouslySetInnerHTML={{__html: `<svg preserveAspectRatio="none" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1270,10 +1172,10 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":136}} className="outerDiv centerer">
+        <div style={{"zIndex":127}} className="outerDiv centerer">
           <div
             id="15:203"
-            style={{"width":"1.5277777777777777%","marginLeft":"59.72222222222222%","height":"2.1484375%","top":"109.27734375%"}}
+            style={{"width":"1.5277777777777777%","marginLeft":"59.583333333333336%","height":"2.1484375%","top":"95.8984375%"}}
             className="innerDiv"
           >
             <div className="vector" dangerouslySetInnerHTML={{__html: `<svg preserveAspectRatio="none" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1290,10 +1192,10 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":160}} className="outerDiv centerer">
+        <div style={{"zIndex":140}} className="outerDiv centerer">
           <div
             id="15:222"
-            style={{"width":"1.6666666666666667%","marginLeft":"49.02777777777778%","height":"2.34375%","top":"38.8671875%"}}
+            style={{"width":"1.6666666666666667%","marginLeft":"49.02777777777778%","height":"2.34375%","top":"38.18359375%"}}
             className="innerDiv"
           >
             <div className="vector" dangerouslySetInnerHTML={{__html: `<svg preserveAspectRatio="none" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1303,7 +1205,7 @@ class CPlanningCalculator15D51 extends PureComponent {
 `}} />
           </div>
         </div>
-        <div style={{"zIndex":163}} className="outerDiv centerer">
+        <div style={{"zIndex":143}} className="outerDiv centerer">
           <div
             id="15:225"
             style={{"width":"2.1527777777777777%","marginLeft":"3.8194444444444446%","height":"3.02734375%","top":"93.06640625%"}}
@@ -1313,6 +1215,20 @@ class CPlanningCalculator15D51 extends PureComponent {
 <path d="M19.375 3.875H24.5417C25.2268 3.875 25.8839 4.14717 26.3684 4.63164C26.8528 5.11611 27.125 5.77319 27.125 6.45833V24.5417C27.125 25.2268 26.8528 25.8839 26.3684 26.3684C25.8839 26.8528 25.2268 27.125 24.5417 27.125H19.375" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12.9167 21.9584L19.375 15.5L12.9167 9.04169" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M19.375 15.5H3.875" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`}} />
+          </div>
+        </div>
+        <div style={{"zIndex":149}} className="outerDiv centerer">
+          <div
+            id="21:57"
+            style={{"width":"1.1805555555555556%","marginLeft":"37.361111111111114%","height":"1.66015625%","top":"89.74609375%"}}
+            className="innerDiv"
+          >
+            <div className="vector" dangerouslySetInnerHTML={{__html: `<svg preserveAspectRatio="none" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.49999 15.5834C12.412 15.5834 15.5833 12.412 15.5833 8.50002C15.5833 4.588 12.412 1.41669 8.49999 1.41669C4.58797 1.41669 1.41666 4.588 1.41666 8.50002C1.41666 12.412 4.58797 15.5834 8.49999 15.5834Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.5 11.3333V8.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.5 5.66669H8.50708" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 `}} />
           </div>
