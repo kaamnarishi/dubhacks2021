@@ -13,7 +13,7 @@ api = Api(app)
 def serve(path):
     return send_from_directory(app.static_folder,'index.html')
 
-api.add_resource(SalaryApiHandler, '/flask/salary/<string:company>/<string:state>')
+api.add_resource(SalaryApiHandler, '/flask/salary/<string:company>/<string:state>/<string:role>')
 
 
 if __name__ == '__main__':

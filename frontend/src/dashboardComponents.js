@@ -554,7 +554,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Rent (Avg. 1BR in {this.props.companyData.state})</span>
+              <span style={{}} key="end">
+                  Avg {this.props.companyData.state} 1BR Rent</span>
             </div>
           </div>
         </div>

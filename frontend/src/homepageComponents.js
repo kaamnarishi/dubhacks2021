@@ -26,14 +26,23 @@ class CHomeDashboard2D19 extends React.Component {
     }
 
     querySalary = () => {
-        const company = document.getElementById('company').value;
-        const role = document.getElementById('role').value;
-        const state = document.getElementById('state').value;
+        const company = document.getElementById('company').value.trim();
+        const role = document.getElementById('role').value.trim();
+        const state = document.getElementById('state').value.trim();
         const comp = document.getElementById('compensation').value;
         const date = document.getElementById('date').value;
-        axios.get(`http://localhost:5000/flask/salary/${company}/${state}`).then(response => {
+        if (role !== "New Grad" && role !== "Mid Level" && role !== "Senior Level") {
+            alert("Role must be 'New Grad', 'Mid Level', or 'Senior Level'");
+            return;
+        }
+        document.getElementById("calculateButton").innerText = "Loading Calculations";
+        axios.get(`http://localhost:5000/flask/salary/${company}/${state}/${role}`).then(response => {
+            document.getElementById("calculateButton").innerHTML = "Start Calculations";
             this.handleSetCompanyData(response.data);
         }).catch(error => {
+            document.getElementById("calculateButton").innerHTML = "Start Calculations";
+
+            alert("Error! Please try again or make sure company/state inputs are valid!");
           console.log(error);
         });
     }
@@ -465,7 +474,7 @@ class CHomeDashboard2D19 extends React.Component {
             className="innerDiv"
           >
             <div>
-              <a onClick={this.querySalary} key="end">Start Calculations</a>
+              <a id="calculateButton" onClick={this.querySalary} key="end">Start Calculations</a>
             </div>
           </div>
         </div>

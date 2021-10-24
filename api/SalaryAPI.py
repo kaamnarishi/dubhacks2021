@@ -14,11 +14,13 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support import expected_conditions as expect
 
 class SalaryApiHandler(Resource):
-  def get(self, company, state):
+  def get(self, company, state, role):
     COMPANY = company
     STATE = state
-    EXPERIENCE = "New Grad"
+    EXPERIENCE = role
     TIME_FRAME = "Past 2 years"
+
+    is_new_grad = EXPERIENCE == 'New Grad'
 
     # Install webdriver to webscrape
     s=Service(ChromeDriverManager().install())
@@ -56,7 +58,7 @@ class SalaryApiHandler(Resource):
         experience = t[4]
         salary = t[5]
         base_salary = t[6].split('|')[0]
-        if experience == '0 / 0' and location.split('|')[0].split(',')[1].strip() == STATE:
+        if ((is_new_grad and experience == '0 / 0') or not is_new_grad) and location.split('|')[0].split(',')[1].strip() == STATE:
             total_salaries.append(int(salary[1:].replace(',', '')))
             total_base_salaries.append(int(base_salary.replace(',', '').replace('k', '000')))
 
@@ -74,7 +76,7 @@ class SalaryApiHandler(Resource):
             location = t[1]
             experience = t[4]
             salary = t[5]
-            if experience == '0 / 0' and location.split('|')[0].split(',')[1].strip() == STATE:
+            if ((is_new_grad and experience == '0 / 0') or not is_new_grad) and location.split('|')[0].split(',')[1].strip() == STATE:
                 total_salaries.append(int(salary[1:].replace(',', '')))
 
     print(statistics.mean(total_salaries))
