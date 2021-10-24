@@ -1,7 +1,8 @@
 import statistics
 import time
 
-from flask_restful import Api, Resource, reqparse
+import requests
+from flask_restful import Resource
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -76,11 +77,31 @@ class SalaryApiHandler(Resource):
 
     print(total_salaries)
     print(statistics.mean(total_salaries))
+    avgSalary = round(statistics.mean(total_salaries))
+
+    my_headers = {'Authorization': 'Bearer apiKey'}
+    response = requests.post(
+        'https://taxee.io/api/v2/calculate/2020',
+        headers=my_headers,
+        data={"pay_rate": avgSalary, "filing_status": "single", "state": "WA"},
+    )
+
+    annual_taxes = response.json()["annual"]
+    annual_state_tax = annual_taxes["state"]["amount"] if annual_taxes["state"]["amount"] else 0
+    annual_federal_tax = annual_taxes["federal"]["amount"]
+    annual_fica_tax = annual_taxes["fica"]["amount"]
+    annualAGI = avgSalary - annual_state_tax - annual_federal_tax - annual_fica_tax
+
     return {
         'resultStatus': 'SUCCESS',
         'company': COMPANY,
         'state': STATE,
         'experience': EXPERIENCE,
         'timeframe': TIME_FRAME,
-        'avgSalary': statistics.mean(total_salaries)
+        'avgSalary': statistics.mean(total_salaries),
+        'annualStateTax': annual_state_tax,
+        'annualFederalTax': annual_federal_tax,
+        'annualFicaTax': annual_fica_tax,
+        'annualAGI': annualAGI,
+        'monthlyAGI': annualAGI / 12
     }
