@@ -15,6 +15,18 @@ export function getComponentFromId(id) {
 }
 
 class CPlanningCalculator15D51 extends PureComponent {
+    constructor(props) {
+        super(props);
+        this.state = {
+            multiplier: 1
+        }
+        this.handleSetCompanyData = this.handleSetCompanyData.bind(this);
+    }
+
+    handleSetCompanyData= () => {
+        this.props.setCompanyData(null);
+    }
+
   render() {
     return (
       <div>
@@ -56,7 +68,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Home</span>
+              <a onClick={this.handleSetCompanyData} style={{}} key="end">Home</a>
             </div>
           </div>
         </div>
@@ -118,7 +130,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="7">{this.props.company}</span>
+              <span style={{}} key="7">{this.props.companyData.company}</span>
               <br key="br7" />
             </div>
           </div>
@@ -151,7 +163,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Calculator</span>
+              <a style={{}} key="end">Calculator</a>
             </div>
           </div>
         </div>
@@ -162,7 +174,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary}</span>
+              {/*  Main Salary Banner*/}
+              <span style={{}} key="end">${this.props.companyData.avgSalary}</span>
             </div>
           </div>
         </div>
@@ -205,7 +218,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Saved </span>
+              <a style={{}} key="end">Saved </a>
             </div>
           </div>
         </div>
@@ -216,7 +229,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Total Spending</span>
+              <span style={{}} key="end">Monthly Income</span>
             </div>
           </div>
         </div>
@@ -239,7 +252,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary * .45}</span>
+              {/*  $Total Monthly Income */}
+              <span style={{}} key="end">{this.props.companyData.monthlyAGI}</span>
             </div>
           </div>
         </div>
@@ -250,7 +264,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Software Engineer II</span>
+              <span style={{}} key="end">SWE - {this.props.companyData.experience}</span>
             </div>
           </div>
         </div>
@@ -271,7 +285,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Your Profile</span>
+              <a style={{}} key="end">Your Profile</a>
             </div>
           </div>
         </div>
@@ -282,7 +296,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Total Savings</span>
+              <span style={{}} key="end">Total Spending</span>
             </div>
           </div>
         </div>
@@ -315,7 +329,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary * .40}</span>
+              {/*  $Total Spending */}
+              <span style={{}} key="end">${this.props.companyData.avgOneBdrmRent + this.props.companyData.monthlyAGI * 0.1 + 1700}</span>
             </div>
           </div>
         </div>
@@ -326,7 +341,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">{this.props.state}</span>
+              <span style={{}} key="end">{this.props.companyData.state}, USA</span>
             </div>
           </div>
         </div>
@@ -337,7 +352,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Leftovers</span>
+              {/* Unallocated */}
+              <span style={{}} key="end">Unallocated</span>
             </div>
           </div>
         </div>
@@ -360,7 +376,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary * .15}</span>
+              {/*  Income - Spending */}
+              <span style={{}} key="end">${Math.round(this.props.companyData.monthlyAGI) - (this.props.companyData.avgOneBdrmRent + this.props.companyData.monthlyAGI * 0.1 + 1700)}</span>
             </div>
           </div>
         </div>
@@ -446,7 +463,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary * .10}</span>
+                 {/*$Grocery*/}
+              <span style={{}} key="end">$500</span>
             </div>
           </div>
         </div>
@@ -457,7 +475,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary}</span>
+              {/* Chart Total Post Tax Income */}
+              <span style={{}} key="end">${this.props.companyData.avgSalary}</span>
             </div>
           </div>
         </div>
@@ -500,7 +519,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary * .20}</span>
+              {/* $Home and Utilies */}
+              <span style={{}} key="end">${this.props.companyData.avgOneBdrmRent}</span>
             </div>
           </div>
         </div>
@@ -511,7 +531,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.AnnualFederalTax}</span>
+              {/*  Income Tax */}
+              <span style={{}} key="end">${this.props.companyData.annualFederalTax + this.props.companyData.annualStateTax}</span>
             </div>
           </div>
         </div>
@@ -533,7 +554,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Home & Utilities</span>
+              <span style={{}} key="end">Rent (Avg. 1BR in {this.props.companyData.state})</span>
             </div>
           </div>
         </div>
@@ -565,7 +586,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.AnnualFiscaTax + this.props.AnnualStateTax}</span>
+              <span style={{}} key="end">${this.props.companyData.annualFicaTax}</span>
             </div>
           </div>
         </div>
@@ -598,7 +619,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary * .08}</span>
+              {/* $Travel */}
+              <span style={{}} key="end">$300</span>
             </div>
           </div>
         </div>
@@ -630,7 +652,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">$XX,XXX.XX</span>
+              {/*  Pre Tax*/}
+              <span style={{}} key="end">$0</span>
             </div>
           </div>
         </div>
@@ -663,7 +686,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary * 0.06}</span>
+              {/*  Restaurants/Dining */}
+              <span style={{}} key="end">$400</span>
             </div>
           </div>
         </div>
@@ -685,7 +709,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">$XX,XXX.XX</span>
+              {/* Post Tax Deductions */}
+              <span style={{}} key="end">${this.props.companyData.annualFicaTax + this.props.companyData.annualStateTax + this.props.companyData.annualFederalTax}</span>
             </div>
           </div>
         </div>
@@ -728,7 +753,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary * 0.10}</span>
+                { /* $Health*/}
+              <span style={{}} key="end">$200</span>
             </div>
           </div>
         </div>
@@ -793,7 +819,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary * 0.06}</span>
+              {/*  $Shopping*/}
+              <span style={{}} key="end">$300</span>
             </div>
           </div>
         </div>
@@ -804,7 +831,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">$127,060</span>
+              {/* Take Home Salary */}
+              <span style={{}} key="end">${this.props.companyData.annualAGI}</span>
             </div>
           </div>
         </div>
@@ -815,7 +843,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Log out</span>
+              <a style={{}} key="end">Log out</a>
             </div>
           </div>
         </div>
@@ -836,7 +864,7 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Savings</span>
+              <span style={{}} key="end">Investing</span>
             </div>
           </div>
         </div>
@@ -847,7 +875,8 @@ class CPlanningCalculator15D51 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">${this.props.avgSalary * 0.40}</span>
+                {/* $Savings */}
+              <span style={{}} key="end">${Math.round(this.props.companyData.monthlyAGI * 0.10)}</span>
             </div>
           </div>
         </div>

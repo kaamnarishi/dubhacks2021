@@ -12,7 +12,7 @@ function App() {
   if (companyData) {
     return (
       <div className="App">
-        <MasterPlanningCalculator />
+        <MasterPlanningCalculator companyData={companyData} setCompanyData={setCompanyData}/>
       </div>
     );
   } else {

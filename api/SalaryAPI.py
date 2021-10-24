@@ -82,7 +82,7 @@ class SalaryApiHandler(Resource):
     avgAnnualSalary = round(statistics.mean(total_salaries))
     avgBaseSalary = round(statistics.mean(total_base_salaries))
 
-    # GET TAX STATISTICS
+    # GET TAX STATISTICS'
     my_headers = {'Authorization': 'Bearer apiKey'}
     response = requests.post(
         'https://taxee.io/api/v2/calculate/2020',
@@ -99,7 +99,6 @@ class SalaryApiHandler(Resource):
     taxRate = annualAGI / avgAnnualSalary
     annualBaseAGI = taxRate * avgBaseSalary
     print("Annual contributed by base salary", annualBaseAGI)
-    monthlyBaseAGI = annualBaseAGI / 12
 
     # GET AVERAGE RENT PRICES
     state_to_rent = dict()
@@ -115,14 +114,13 @@ class SalaryApiHandler(Resource):
         'state': STATE,
         'experience': EXPERIENCE,
         'timeframe': TIME_FRAME,
-        'avgSalary': statistics.mean(total_salaries),
+        'avgSalary': round(statistics.mean(total_salaries)),
         'annualStateTax': annual_state_tax,
         'annualFederalTax': annual_federal_tax,
         'annualFicaTax': annual_fica_tax,
-        'annualAGI': annualAGI,
-        'monthlyAGI': annualAGI / 12,
-        'monthlyBaseAGI': monthlyBaseAGI,
+        'annualAGI': round(annualAGI),
+        'monthlyAGI': round(annualAGI / 12),
         'avgStudioRent': state_to_rent[STATE][0],
-        'avgOneBdrmRent': state_to_rent[STATE][1],
+        'avgOneBdrmRent': round(float(state_to_rent[STATE][1][1:].replace(',',''))),
         'avgTwoBdrmRent': state_to_rent[STATE][2]
     }
