@@ -1,21 +1,13 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import { CHomeDashboard } from './components/CHomeDashboard';
+import axios from "axios";
 
-export class MasterHomeDashboard extends PureComponent {
-  render() {
-    return <div className="master" style={{backgroundColor: "rgba(242, 242, 242, 1)"}}>
-      <CHomeDashboard {...this.props} nodeId="2:19" />
-    </div>
-  }
-}
-
-function querySalary() {
-    const company = document.getElementById('company').value;
-    const role = document.getElementById('role').value;
-    const state = document.getElementById('state').value;
-    const comp = document.getElementById('compensation').value;
-    const date = document.getElementById('date').value;
-    console.log(company, role, state);
+export class MasterHomeDashboard extends React.Component {
+    render() {
+        return <div className="master" style={{backgroundColor: "rgba(242, 242, 242, 1)"}}>
+          <CHomeDashboard {...this.props} nodeId="2:19" />
+        </div>
+    }
 }
 
 export function getComponentFromId(id) {
@@ -23,7 +15,29 @@ export function getComponentFromId(id) {
   return null;
 }
 
-class CHomeDashboard2D19 extends PureComponent {
+class CHomeDashboard2D19 extends React.Component {
+    constructor(props) {
+        super(props);
+        this.handleSetCompanyData = this.handleSetCompanyData.bind(this);
+    }
+
+    handleSetCompanyData= (val) => {
+        this.props.setCompanyData(val);
+    }
+
+    querySalary = () => {
+        const company = document.getElementById('company').value;
+        const role = document.getElementById('role').value;
+        const state = document.getElementById('state').value;
+        const comp = document.getElementById('compensation').value;
+        const date = document.getElementById('date').value;
+        axios.get(`http://localhost:5000/flask/salary/${company}/${state}`).then(response => {
+            this.handleSetCompanyData(response.data);
+        }).catch(error => {
+          console.log(error);
+        });
+    }
+
   render() {
     return (
       <div>
@@ -451,7 +465,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <a onClick={() => querySalary()} key="end">Start Calculations</a>
+              <a onClick={this.querySalary} key="end">Start Calculations</a>
             </div>
           </div>
         </div>

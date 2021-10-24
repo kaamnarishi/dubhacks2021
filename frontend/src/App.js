@@ -1,45 +1,29 @@
 import logo from './logo.svg';
-import './App.css';
+import './index.css';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { PieCharts } from "./PieCharts";
-
+import ReactDOM from "react-dom";
+import {MasterHomeDashboard} from "./homepageComponents";
+import {MasterPlanningCalculator} from "./dashboardComponents";
 
 function App() {
-  const [getMessage, setGetMessage] = useState({});
-
-  useEffect(()=>{
-    axios.get('http://localhost:5000/flask/salary/Google/WA').then(response => {
-      console.log("SUCCESS", response);
-      setGetMessage(response);
-    }).catch(error => {
-      console.log(error);
-    });
-  }, []);
-
-  return (
+  const [companyData, setCompanyData] = useState();
+  if (companyData) {
+    return (
+      <div className="App">
+        <MasterPlanningCalculator />
+      </div>
+    );
+  } else {
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hi <code>Ardelle</code>
-        </p>
-        <div>{getMessage.status === 200 ?
-          <h3>Average Salary: ${getMessage.data.avgSalary}</h3>
-          :
-          <h3>LOADING</h3>}</div>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <PieCharts data={getMessage.data} />
-      </header>
+      <MasterHomeDashboard setCompanyData={setCompanyData}/>
+      {/*  <PieCharts data={getMessage.data} />*/}
     </div>
   );
+  }
+
 }
 
 export default App;
