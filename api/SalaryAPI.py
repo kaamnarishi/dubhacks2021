@@ -57,7 +57,6 @@ class SalaryApiHandler(Resource):
         salary = t[5]
         base_salary = t[6].split('|')[0]
         if experience == '0 / 0' and location.split('|')[0].split(',')[1].strip() == STATE:
-            print(location, experience)
             total_salaries.append(int(salary[1:].replace(',', '')))
             total_base_salaries.append(int(base_salary.replace(',', '').replace('k', '000')))
 
@@ -84,11 +83,11 @@ class SalaryApiHandler(Resource):
     avgBaseSalary = round(statistics.mean(total_base_salaries))
 
     # GET TAX STATISTICS
-    my_headers = {'Authorization': 'Bearer apiToken'}
+    my_headers = {'Authorization': 'Bearer apiKey'}
     response = requests.post(
         'https://taxee.io/api/v2/calculate/2020',
         headers=my_headers,
-        data={"pay_rate": avgAnnualSalary, "filing_status": "single", "state": "WA"},
+        data={"pay_rate": avgAnnualSalary, "filing_status": "single", "state": STATE},
     )
 
     annual_taxes = response.json()["annual"]
@@ -98,7 +97,6 @@ class SalaryApiHandler(Resource):
     annualAGI = avgAnnualSalary - annual_state_tax - annual_federal_tax - annual_fica_tax
 
     taxRate = annualAGI / avgAnnualSalary
-    print("TAX", taxRate)
     annualBaseAGI = taxRate * avgBaseSalary
     print("Annual contributed by base salary", annualBaseAGI)
     monthlyBaseAGI = annualBaseAGI / 12
