@@ -9,6 +9,15 @@ export class MasterHomeDashboard extends PureComponent {
   }
 }
 
+function querySalary() {
+    const company = document.getElementById('company').value;
+    const role = document.getElementById('role').value;
+    const state = document.getElementById('state').value;
+    const comp = document.getElementById('compensation').value;
+    const date = document.getElementById('date').value;
+    console.log(company, role, state);
+}
+
 export function getComponentFromId(id) {
   if (id === "2:19") return CHomeDashboard2D19;
   return null;
@@ -172,7 +181,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Company Name</span>
+                <input id='company' placeholder="Enter Company..." type='text' key="end"/>
             </div>
           </div>
         </div>
@@ -226,7 +235,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Role Title</span>
+                <input id='role' placeholder="Enter Role..." type='text' key="end"/>
             </div>
           </div>
         </div>
@@ -280,7 +289,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Search for location... </span>
+                <input id='state' placeholder="Enter State..." type='text' key="end"/>
             </div>
           </div>
         </div>
@@ -334,7 +343,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Compensation</span>
+              <span style={{}} key="end">Compensation (Optional)</span>
             </div>
           </div>
         </div>
@@ -378,7 +387,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Enter compensation</span>
+                <input id='compensation' placeholder="Enter Compensation..." type='text' key="end"/>
             </div>
           </div>
         </div>
@@ -389,7 +398,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Offer Acceptance Deadline (optional)</span>
+              <span style={{}} key="end">Offer Acceptance Deadline (Optional)</span>
             </div>
           </div>
         </div>
@@ -400,7 +409,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Select Date</span>
+                <input id='date' placeholder="Enter Date..." type='text' key="end"/>
             </div>
           </div>
         </div>
@@ -442,7 +451,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <a style={{}} key="end">Start Calculations</a>
+              <a onClick={() => querySalary()} key="end">Start Calculations</a>
             </div>
           </div>
         </div>
