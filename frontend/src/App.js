@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useEffect, useState } from 'react';
-import axios from 'axios'
+import axios from 'axios';
+import { PieCharts } from "./PieCharts";
+
 
 function App() {
   const [getMessage, setGetMessage] = useState({});
@@ -23,7 +25,7 @@ function App() {
           Hi <code>Ardelle</code>
         </p>
         <div>{getMessage.status === 200 ?
-          <h3>{getMessage.data.avgSalary}</h3>
+          <h3>Average Salary: ${getMessage.data.avgSalary}</h3>
           :
           <h3>LOADING</h3>}</div>
         <a
@@ -34,9 +36,12 @@ function App() {
         >
           Learn React
         </a>
+        <PieCharts data={getMessage.data} />
       </header>
     </div>
   );
 }
 
 export default App;
+
+
