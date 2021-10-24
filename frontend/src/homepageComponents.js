@@ -56,7 +56,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Home</span>
+              <a style={{}} key="end">Home</a>
             </div>
           </div>
         </div>
@@ -139,7 +139,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Calculator</span>
+              <a style={{}} key="end">Calculator</a>
             </div>
           </div>
         </div>
@@ -193,7 +193,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Saved </span>
+              <a style={{}} key="end">Saved </a>
             </div>
           </div>
         </div>
@@ -258,7 +258,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Your Profile</span>
+              <a style={{}} key="end">Your Profile</a>
             </div>
           </div>
         </div>
@@ -442,7 +442,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Start Calculations</span>
+              <a style={{}} key="end">Start Calculations</a>
             </div>
           </div>
         </div>
@@ -539,7 +539,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">15 Rules for Negotiating a Job Offer</span>
+              <a style={{}} key="end">15 Rules for Negotiating a Job Offer</a>
             </div>
           </div>
         </div>
@@ -550,7 +550,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">The pros and cons of being a software engineer in Big Tech</span>
+              <a style={{}} key="end">The pros and cons of being a software engineer in Big Tech</a>
             </div>
           </div>
         </div>
@@ -594,7 +594,7 @@ class CHomeDashboard2D19 extends PureComponent {
             className="innerDiv"
           >
             <div>
-              <span style={{}} key="end">Log out</span>
+              <a style={{}} key="end">Log out</a>
             </div>
           </div>
         </div>
